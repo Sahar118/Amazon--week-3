@@ -93,14 +93,15 @@ font-family: Amazon Ember f;
 /* <!-- middle --> */
 
 .search-nav{
-    /* width: 35%; */
-    height: 40px;
+    
+    height: 30px;
     margin:  10px auto;
     background-color: var(--white-color);
     border-radius: 3px;
     position: relative;
     display: flex;
-    flex: 1 0 auto;
+    flex-grow: 0.8;
+    /* flex: 1 0 auto; */
 }
 
 .input{
@@ -261,4 +262,352 @@ a{
     margin: 5px 0 6px;
     font-size: 14px;
     font-weight: bolder;
+}
+
+/* bottom navbar */
+
+.bottom-navbar{
+    height: 55px;
+    width: 100%;
+    border-bottom: 1px solid var(--gray-color);
+    border-top:1px solid var(--gray-color);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.mate-icon1{
+    height: 40px;
+    width: 30px;
+    margin: 5px 10px ;
+
+}
+
+
+.adv-p{
+    width:620px;
+    margin:auto 10px ;
+}
+
+.stars-adv{
+    background: url('/img/icons3.png') no-repeat 66.993% 45.074%;
+	width: 94px;
+	height: 17px;
+    margin:10px 2px 10px;
+}
+
+.stars-raiting-adv{
+    color: var(--light-gray-color);
+    font-family:  Amazon Ember i;
+    margin:10px 20px 10px 2px ;
+
+}
+
+.price-adv{
+    display: flex;
+    color: var(--red-color);
+    margin-top: 10px;
+}
+
+.price-adv > .small-price{
+font-size: 8px;
+margin-top: 5px;
+
+} 
+
+.price-adv > .huge-price{
+    font-size: 20px;
+
+}
+
+.privues-price-adv{
+    /* background-color: yellowgreen; */
+    text-decoration:line-through;
+    color: var(--dark-grey-color);
+    margin-top: 20px;
+    margin-left: 15px;
+
+}
+
+.prime-adv{
+background: url('/img/icons.png') no-repeat 40.175% 75.833%;
+	width: 54px;
+	height: 16px;
+    margin-top: 20px;
+
+}
+
+.last-navbar {
+    display: flex;
+    justify-content: space-between;
+}
+.p-right {
+    color: var(--gray-color);
+    font-size: 11px;
+    margin: 5px 10px;
+}
+
+.right-side-impo{
+    display: flex;
+}
+.important{
+    color: var(--white-color);
+    background-color: var(--gray-color);
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    font-size: 9px;
+    margin: 7px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*       <!-- ★★★★   middle   (★‿★) --> */
+.continer{
+    width: 100%;
+    height: 1227px;
+    display: flex;
+}
+
+/* left section */
+
+.Left-sction{
+    display: flex;
+    width: 351.85px;
+    width: 35.85%;
+    height: 460px;
+    margin-left: 20px;
+}
+.left-imges{
+    display: flex;
+    flex-direction: column;
+}
+.left-small-imges{
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+    border: 1px solid var(--black-color);
+    position: relative;
+}
+
+.left-small-imges:hover{
+    /* border: 3px solid var(--orange-hover-color); */
+    box-shadow: 1px 2px 5px 1px var(--orange-hover-color);
+}
+
+.big-img{
+    height: 350px;
+    width: 350px;
+    margin-top: 50px;
+    margin-left: 20px;
+    background: url(/img/img1.jpg) no-repeat center center/cover;
+    z-index: 3;
+}
+
+.img-1,
+.img-2,
+.img-3,
+.img-4,
+.img-5,
+.img-6,
+.img-7
+{
+    /* overflow: hidden; */
+    position: relative;
+}
+
+
+.img-1::after,
+.img-2::after,
+.img-3::after,
+.img-4::after,
+.img-5::after,
+.img-6::after{
+  
+
+
+
+}
+
+.img-1::after{
+    background: url(/img/img1.jpg) no-repeat center center/cover; 
+    content: " ";
+    height: 350px;
+    width: 350px;
+    position: relative;
+    top: 0;
+
+}
+
+.img-1:hover::after{
+    content: " ";
+    height: 350px;
+    width: 350px;
+    top: 10px;
+    z-index: 1;
+
+
+}
+.img-2::after{
+    background: url(/img/img2.jpg) no-repeat center center/cover;
+    content: " ";
+    height: 350px;
+    width: 350px;
+    margin: 20px;
+    position: absolute;
+    /* top:-40px; */
+    overflow: hidden;
+    top: -40px;
+
+}
+
+.img-2:hover::after{
+    content: " ";
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    z-index: 1;
+}
+
+.img-3::after{
+    overflow: hidden;
+
+    background: url(/img/img3.jpg) no-repeat center center/cover;
+    content: " ";
+    height: 350px;
+    width: 350px;
+    margin: 20px;
+    position: absolute;
+    /* top:-100px; */
+    top: -95px;
+}
+
+.img-3:hover::after{
+    content: " ";
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.img-4::after{
+    background: url(/img/img4.jpg) no-repeat center center/cover;
+    content: " ";
+    height: 350px;
+    width: 350px;
+    margin: 20px;
+    position: absolute;
+    /* top:-190px; */
+    top: -152px;
+    overflow: hidden;
+ 
+}
+.img-4:hover::after{
+    content: " ";
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    z-index: 1;
+}
+
+.img-5::after{
+    background: url(/img/img5.jpg) no-repeat center center/cover;
+    content: " ";
+    height: 350px;
+    width: 350px;
+    margin: 20px;
+    position: absolute;
+    /* top: -120px; */
+    /* bottom: -40px; */
+    overflow: hidden;
+    top: -205px;
+
+}
+
+.img-5:hover::after{
+    content: " ";
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.img-6::after{
+    background: url(/img/img6.jpg) no-repeat center center/cover;
+    content: " ";
+    height: 350px;
+    width: 350px;
+    margin: 20px;
+    position: absolute;
+    bottom: 0px;
+    overflow: hidden;
+    top: -290px;
+
+}
+
+.img-6:hover::after{
+    content: " ";
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    z-index: 1;
+}
+
+.img-7::after{
+    background: url(/img/img2.jpg) no-repeat center center/cover; 
+    content: " ";
+    height: 350px;
+    position: absolute;
+    bottom: 30px;
+    left: 70px;
+    width: 350px;
+    overflow: hidden;
+
+}
+
+.img-7:hover::after{
+    content: " ";
+    height: 350px;
+    width: 350px;
+    z-index: 2;
+}
+
+.under-img{
+    text-align: center;
+    margin-top: 20px;
+    border: 2px solid var(--white-color);
+    padding: 20px;
+    background-color: var(--white-color);
+    position: relative;
+
+}
+
+.save-button{
+    position: relative;
+    left: 90%;
+    bottom: 105%;
+    z-index: 3;
+    height: 40px;
+    width: 40px;
+}
+
+
+
+/* middle section */
+.middle-sction{
+    width: 372.69px; 
+    width: 37.69%;
+    height: 610px;
+    background-color: blue;
+}
+
+
+/* right section */
+.right-sction{
+    width: 244px;
+    width: 24.4%;
+    height: 460px;
+    background-color: blueviolet;
 }
