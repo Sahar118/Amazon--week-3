@@ -13,7 +13,9 @@ html{
 
 
 }    
-
+.page-1{
+    min-height: 100vh;
+}
 .nav-flex-column{
     display: flex;
     flex-direction: column;
@@ -909,7 +911,7 @@ div> .green-pro{
     display: flex;
     justify-content: center;
     border-radius: 8px;
-  font-family: Amazon Ember e;
+    font-family: Amazon Ember e;
 }
 
 .see-similar:hover{
@@ -948,10 +950,14 @@ height: 17px;
 
 .add-to-list{
     padding: 5px;
-  font-family: Amazon Ember e;
-  font-size: 12px;
+    font-family: Amazon Ember e;
+    font-size: 12px;
 }
-.add-to-list:hover{
+/* .add-to-list:hover{
+    background-color: var(--gray-color);
+    border: 1px solid var(--black-color);
+} */
+.add-to-list:focus{
     background-color: var(--dark-grey-color);
     color: var(--white-color);
     border: 1px solid var(--red-color);
@@ -969,4 +975,146 @@ height: 17px;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+}
+
+.div-right-middle  div > p{
+    font-size: 10px;
+}
+.sell-on-amazon{
+    background-color: var(--white-color);
+    border:0.05px solid var(--gray-color);
+    box-shadow: 0.25px 0.25px 0.5px 0.5px var(--gray-color);
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 11px;
+    font-family: Amazon Ember e;
+    text-align: center;
+    margin-left: 42px;
+    margin-top: 3px;
+}
+
+
+
+/* <!-- ★★★★  Carousel Image   (★‿★) --> */
+
+.footer-p-1{
+    height: 400px;
+    border-top: 1px solid var(--light-gray-color);
+    margin-inline: 20px;
+    position: relative;
+    top: -180px;
+}
+
+.footer-title{
+    display: flex;
+    justify-content: space-between;
+    margin:15px;
+    padding-top: 10px;
+    color: var(--orange-hover-color);
+
+
+}
+
+.footer-important{
+    display: flex;
+}
+
+.carousel-image{
+
+    width: 95%;
+    height: 250px;
+    margin: auto;
+    display: flex;
+}
+.carousel-image-1{
+    display: flex;
+     
+}
+.img-footer-1 img,
+.img-footer-2 img,
+.img-footer-3 img,
+.img-footer-4 img,
+.img-footer-5 img,
+.img-footer-6 img,
+.img-footer-7 img
+{
+    height: 140px;
+    width: 140px;
+    margin: 10px;
+}
+
+.img-footer-1 ,
+.img-footer-2 ,
+.img-footer-3 ,
+.img-footer-4 ,
+.img-footer-5 ,
+.img-footer-6 ,
+.img-footer-7, 
+a
+{
+    color: var(--green2-color);
+    margin-right: 5px;
+}
+
+.prime-footer{
+background: url('/img/icons.png') no-repeat 40.175% 75.833%;
+	width: 54px;
+	height: 16px;
+}
+.stars-raiting-footer{
+    display: flex;
+    justify-content: flex-start;
+
+}
+.stars-footer-1 img,
+.stars-footer-3 img,
+.stars-footer-5 img{
+    background: url('/img/stars.png') no-repeat 93.525% 93.927%;
+	width: 95px;
+	height: 18px;
+    position: relative;
+    left: -10px;
+
+}
+
+.stars-footer-2 img,
+.stars-footer-4 img{
+    background: url('/img/stars.png') no-repeat 23.741% 74.291%;
+    width: 95px;
+    height: 18px;
+    position: relative;
+    left: -10px;    
+
+}
+
+.stars-footer-6 img{
+background: url('/img/stars.png') no-repeat 70.264% 89.069%;
+width: 95px;
+height: 18px;
+    position: relative;
+    left: -10px;
+
+}
+
+.raiting-footer{
+    position: relative;
+    top: 10px;
+    left: -10px;
+}
+
+.price-footer-carousel{
+    display: flex;
+}
+
+.price-footer{
+    color: var(--red-color);
+    font-size: 16px;
+}
+
+.save-price{
+    position: relative;
+    top: 5px;
+    left: 7px;
+    font-size: 10px;
 }
