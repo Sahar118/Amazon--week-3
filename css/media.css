@@ -1,0 +1,225 @@
+@media (max-width:760px) {
+    .top-navbar{
+        display: none;
+    }
+    .middle-navbar ul{
+        display: none;
+    }
+    .middle-navbar a{
+        display: none;
+    }
+
+    .body{
+        background-color: yellowgreen;
+        width: 100%;
+        
+    }
+       .top-navbar-responsive{
+
+        background-color: var(--black-color);
+        color: var(--white-color);
+        width: 100%;
+        height: 3.75rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        position: relative;
+       }
+       .left-top-respon{
+        display: flex;
+       }
+       .menu-respon{
+        background: url('/img/iconsprite.png') no-repeat 51.807% 58.486%;
+        width: 18px;
+        height: 14px;
+         position: relative;
+        top: 7px;
+        left: 5px;
+       }
+
+       .logo-respo{
+        background: url('/img/iconsprite.png') no-repeat 3.937% 12.114%;
+        width: 100px;
+        height: 29px;
+        position: relative;
+        top: 7px;
+        left: 10px;
+       }
+
+       .top-right-respo{
+        display: flex;
+ 
+       }
+
+       .top-right-respo p{
+        font-size: 12px;
+        margin-top: 18px;
+        position: relative;
+        right: -25px;
+       }
+
+       .sign-in-logo  > img{
+        background: url('/img/user.jpg');
+        width: 30px;
+        height: 30px; 
+        position: relative;
+        top: 5px;
+        right: -35px;
+       }
+
+        .cart-hover{
+        margin-top: 7px;
+       }
+
+        .input-res{
+            width: 100%;
+            height: 28px;
+            flex-grow: 0.8;
+            border-radius: 6px;
+            position: relative;
+/* margin:  50px auto; */
+background-color: brown;
+        }
+
+        .icon-search-res{
+            background: url('/img/icons3.png') no-repeat 51.852% 4%;
+            width: 40px;
+            height: 30px;
+            font-size: 5px;
+            border: none;
+            background-color: coral;
+            border-top-right-radius: 6px;
+            border-bottom-right-radius: 6px;
+        }
+
+        .bottom-navbar{
+            display: flex;
+            justify-content: flex-start;
+        }
+        .adv-p{
+            font-size: 10px;
+            line-height: 1.1;
+        }
+        .stars-raiting-adv{
+            display: none;
+        }
+        .stars-adv{
+            display: none;
+        }
+        .price-adv > .small-price{
+            font-size: 6px;
+            
+            } 
+            
+            .price-adv > .huge-price{
+                font-size: 10px;
+            
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* text-align: center; */
+    }
+
+
+    .Left-sction{
+        display: flex;
+        flex-direction: column;
+    }
+.img-1::after,
+.img-2::after,
+.img-3::after,
+.img-4::after,
+.img-5::after,
+.img-6::after,
+.img-7::after{
+  display: none;
+}
+.img-1:hover::after,
+.img-2:hover::after,
+.img-3:hover::after,
+.img-4:hover::after,
+.img-5:hover::after,
+.img-6:hover::after,
+.img-7:hover::after{
+  display: none;
+}
+
+.left-imges{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    position: relative;
+    top: 190px;
+
+}
+.big-img{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    left:-140px ;
+    top: 40px;
+}
+.under-img{
+    display: none;
+
+}
+.middle-sction{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    position: relative;
+    /* left: -90px; */
+}
+
+.middle-p-1{
+    font-size: 12px;
+    text-align: left;
+}
+
+.middle-p-1{
+    text-align: left;
+    font-size: 11px;
+
+}
+
+.save-button{
+    display: none;
+}
+.box-style{
+    border: 1px solid var(--light-gray-color);
+    /* margin-right: 10px; */
+    box-sizing: border-box;
+}
+.footer-p-1{
+    display: none;
+}
+
+
+
+.right-header{
+display: none;
+}
+
+.div-right-middle{
+    display: none;
+}
+
+.sell-on-amazon{
+    display: none;
+}
+
+.left-imges{
+    display: none;
+}
+
+
+
+
+
+}
