@@ -16,14 +16,14 @@
       format("woff");
 }
 @font-face {
-  font-family: "Amazon Ember";
+  font-family: Amazon Ember e;
   src: url(https://m.media-amazon.com/images/S/sash/pDxWAF1pBB0dzGB.woff2)
       format("woff2"),
     url(https://m.media-amazon.com/images/S/sash/kfKKBuoqcD$AUKL.woff)
       format("woff");
 }
 @font-face {
-  font-family: "Amazon Ember";
+  font-family: Amazon Ember w;
   font-style: italic;
   src: url(https://m.media-amazon.com/images/S/sash/WOnTLzkiaEccV7F.woff2)
       format("woff2"),
@@ -31,7 +31,7 @@
       format("woff");
 }
 @font-face {
-  font-family: "Amazon Ember";
+  font-family: Amazon Ember t;
   font-weight: 500;
   src: url(https://m.media-amazon.com/images/S/sash/VjTR4RqBzY0mUYx.woff2)
       format("woff2"),
@@ -39,7 +39,7 @@
       format("woff");
 }
 @font-face {
-  font-family: "Amazon Ember";
+  font-family: Amazon Ember s;
   font-weight: 500;
   font-style: italic;
   src: url(https://m.media-amazon.com/images/S/sash/KwhNPG8Jz-Vz2X7.woff2)

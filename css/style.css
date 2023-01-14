@@ -599,15 +599,374 @@ background: url('/img/icons.png') no-repeat 40.175% 75.833%;
 .middle-sction{
     width: 372.69px; 
     width: 37.69%;
-    height: 610px;
-    background-color: blue;
+    height: 60%;
+    font-family: Amazon Ember e;
+
+}
+.top-p{
+
+    border-bottom: 1px solid var(--gray-color);
+}
+.middle-p-1{
+    font-size: 20px;
+    font-family: Amazon Ember e;
+}
+
+.middle-p-2{
+    font-size: 14px;
+    color: var(--green2-color);
+    font-family: Amazon Ember e;
+}
+.star-raiting-middle{
+    display: flex;
+
+
+}
+.star-middle{
+    background: url('/img/icons3.png') no-repeat 66.993% 45.074%;
+	width: 94px;
+	height: 17px;
+}
+
+.raiting-middle{
+    font-size: 14px;
+    color: var(--green2-color);
+    font-family: Amazon Ember e;
+    margin-left: 15px;
+}
+
+button{
+    text-align: left;
+    font-family: Amazon Ember a;
+}
+button .second-p-1{
+    color: var(--red-color);
+    font-size: px;
+    
+}
+
+.second-p-2{
+    text-align: left;
+    font-size: 12px;
+    margin-top: -5px;
+}
+
+.size-middle{
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.box-options{
+    display: flex;
+    
+}
+.box-style{
+    padding:8px 10px ;
+    border: 1px solid var(--light-gray-color);
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+.box-style:hover{
+    background-color: var(--gray-color);
+}
+
+.box-style:focus{
+    border:  1px solid var(--red-color);
+    box-decoration-break:  1px solid var(--red-color);
+
+}
+.box-style:active{
+    box-shadow: 0.5px 0.5px 1px 1px var(--orange-color);
+    opacity: 0.7;
+}
+
+.right-box-p1{
+    font-family: Amazon Ember t;
+    line-height: 1.6;
+    position: relative;
+}
+
+.right-box-p1::before{
+    content: '8 Ounce Bag';
+    background-color: var(--white-color);
+    position: absolute;
+    top: -27px;
+    left: -105px;
+}
+.right-box-p1:hover::before{
+    content: '8 Ounce Bag';
+}
+
+.right-box-p1:hover:focus:before{
+    content: '8 Ounce Bag';
+}
+.left-box-p2{
+    position: relative;
+    overflow:inherit;
+
+    
+}
+.left-box-p2::after{
+    content: '';
+    font-family: Amazon Ember t;
+    line-height: 1.6;
+    background-color: var(--white-color);
+    position: absolute;
+    top: -45px;
+    left: 20px;
+    width: 150px;
+}
+.left-box-p2:hover::after{
+    content: '4oz Yerba Mate Set';
+    z-index: 2;
+}
+
+/* ***
+ */
+ .left-box-p2::before{
+    content: '';
+    position: absolute;
+    content: " ";
+    height: 350px;
+    width: 350px;
+    overflow: hidden;
+    margin: 20px;
+    position: absolute;
+    top: -230px;
+    left: -420px;
+}
+.left-box-p2:hover::before{
+    background: url(/img/before-box-1.jpg) no-repeat center center/cover;
+    content: " ";
+    height: 350px;
+    width: 350px;
+    z-index: 2;
 }
 
 
+.right-box-p2{
+    color: var(--red-color);
+    font-family: Amazon Ember t;
+    
+
+}
+
+.ingredients{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    /* padding: 40px; */
+    text-align: left;
+    
+}
+
+.ingredients-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ingredients-top >p{
+    font-size: 18px;
+  font-family: Amazon Ember t;
+
+}
+
+.ingredients-top
+.middle-icon{
+background: url('/img/icons3.png') no-repeat 1.554% 9.315%;
+width: 14px;
+height: 9px;
+margin-right: 10px;
+}
+
+.about-item{
+    border-top: 1px solid var(--gray-color);
+    border-bottom: 1px solid var(--gray-color);
+    padding-bottom: 10px;
+}
+.about-this-item{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.about-item-title{
+    font-size: 18px;
+  font-family: Amazon Ember t;
+
+
+}
+.about-titles-rl{
+    display: flex;
+}
+.about-title{
+    font-family: Amazon Ember f;
+    padding-top: 5px;
+    padding-right: 40px;
+}
+
+.about-item-icon{
+    background: url('/img/icons3.png') no-repeat 1.554% 9.315%;
+    width: 14px;
+    height: 9px;
+margin-right: 10px;
+
+}
+.about-p{
+    padding-top: 5px;
+}
+
+.about-title-1{
+    padding-left:25px;
+}
+.about-title-2{
+    padding-left:27px;
+}
+.small-business-img{
+    background: url(/img/small-busnes.png) no-repeat center center/cover ;
+    width: 25px;
+    height: 25px;
+    margin-top: 12px;
+}
+.small-business-p-1{
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+.small-business-p-2{
+    font-size: 12px;
+    color: var(--dark-grey-color);
+    margin-left: 15px;
+}
+
+.small-business-p-2 a{
+    color:var(--green2-color);
+}
+.small-business-p-2 a:hover{
+    color:var(--red-color);
+    text-decoration:underline;
+}
+.additional-detalis{
+    font-size: 15px;
+    font-family: Amazon Ember t;
+}
+.small-business-div{
+    display: flex;
+    line-height: 20px;
+
+}
+.green-prod-p{
+    margin-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    border-bottom: 1px solid var(--gray-color);
+}
+.green-prod-p  li{
+    display: flex;
+}
+
+div> .green-pro{
+    height: 18px;
+    width: 18px;
+
+}
 /* right section */
 .right-sction{
-    width: 244px;
     width: 24.4%;
     height: 460px;
-    background-color: blueviolet;
+
+}
+
+.right-header{
+    border: 1px solid var(--gray-color);
+    height: 180px;
+    width:75%;
+    margin-right:0px;
+    padding-inline: 25px;
+    margin: auto;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.header-p-1{
+    text-align: center;
+    color: var(--red-color);
+    font-size: 12px;
+    font-family: Amazon Ember f;
+    margin-top: 10px;
+}
+
+.header-p-2{
+    text-align: center;
+    margin-bottom: 9px;
+}
+
+.see-similar{
+    background-color: #FFD814;
+    border: none;
+    padding: 5px 14px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+  font-family: Amazon Ember e;
+}
+
+.see-similar:hover{
+    background-color:var(--yellow-hover-color);
+}
+.see-similar:focus{
+    border:  2px solid var(--white-color);
+    box-decoration-break: 0.5px 0.5px 1px 1px deepskyblue;
+    
+}
+.see-similar:active{
+    box-shadow: 0.5px 0.5px 1px 1px deepskyblue;
+    opacity: 0.7;
+}
+
+.header-deliver{
+    display: flex;
+    border-bottom: 1px solid var(--light-gray-color);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.deliver-header{
+    color: var(--green2-color);
+    font-size: 11px;
+}
+
+.deliver-header:hover{
+    color: var(--red-color);
+}
+
+div > .icon-location-header{
+background: url('/img/location.png') no-repeat center;
+width: 17px;
+height: 17px;
+}
+
+.add-to-list{
+    padding: 5px;
+  font-family: Amazon Ember e;
+  font-size: 12px;
+}
+.add-to-list:hover{
+    background-color: var(--dark-grey-color);
+    color: var(--white-color);
+    border: 1px solid var(--red-color);
+    box-shadow: 0.5px 0.5px 1px 1px var(--orange-hover-color);
+
+}
+
+.div-right-middle{
+    height: 80px;
+    width:75%;
+    padding-inline: 25px;
+    margin: auto;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
